@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hook</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/shorthandcss@1.1.1/dist/shorthand.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Muli:200,300,400,500,600,700,800,900&display=swap" />
+</head>
+
+<body class="bg-black muli">
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <a href="https://pro.cxmpute.com" class="flex items-center p-2 mr-4 no-underline">
+                <img class="max-h-l6 w-auto" src="https://cxmpute.com/assets/images/logo.png" />
+            </a>
+            <a data-toggle="toggle-nav" data-target="#nav-items" href="#"
+                class="flex items-center ml-auto md-hidden blue-lighter opacity-50 hover-opacity-100 ease-300 p-1 m-3">
+                <i data-feather="menu"></i>
+            </a>
+        </div>
+        <div id="nav-items" class="hidden flex sm-w-100pc flex-column md-flex md-flex-row md-justify-end items-center">
+            <a href="#home" class="fs-s1 mx-3 py-3 blue no-underline hover-underline">Home</a>
+            <a href="https://discord.com/invite/xbhVayzNXP" class="fs-s1 mx-3 py-3 blue no-underline hover-underline">Discord</a>
+            <a href="https://ctrl.cxmpute.com/auth/signup" class="button bg-white black fw-600 no-underline mx-5">Join</a>
+        </div>
+    </nav>
+    <nav class="w-100pc flex flex-column md-flex-row md-px-10 py-5 bg-black">
+        <div class="flex justify-between">
+            <h1 class="p-6 mr-4 no-underline white fs-l2 lh-2 md-fs-l5 md-lh-1 fw-900">
+                CXMPUTE&nbsp;<span class="blue">PRO</span>&nbsp;- Join Today
+                <br />
+                <span class="fs-l1 lh-2 md-lh-1">
+                    <span class="red">50% off</span> for the first month!
+                </span>
+            </h1>
+        </div>
+    </nav>
+    <!-- pricing -->
+    <section id="pricing">
+        <div class="px-10 py-5 flex flex-wrap">
+            <div class="w-100pc md-w-25pc">
+                <div class="m-3 p-5 br-8 bg-blue-lightest-10 overflow-hidden">
+                    <div class="p-3">
+                        <h3 class="blue">Forever-Free</h3>
+                        <div class="white flex items-center">$<span class="fs-l5 lh-1">0</span> / monthly</div>
+                    </div>
+                    <div class="p-3 blue-lightest fw-400 fs-s1 lh-5">
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">1.5 shared threads on Standard Metal</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">2GB Shared DDR4 Memory</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">20GB SSD Storage</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">DDoS Protection by Path</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">3 backups, ports & databases</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">&nbsp;</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">&nbsp;</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">&nbsp;</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">&nbsp;</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">&nbsp;</span>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <button class="button full bg-black white  hover-opacity-100 hover-scale-up-1 ease-300">SIGN
+                            UP</button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="m-3 p-5 br-8 bg-white overflow-hidden">
+                    <div class="p-3">
+                        <h3 class="blue">PRO: Start</h3>
+                        <h3 class="red">(50% OFF FIRST MONTH!)</h3>
+                        <div class="flex items-center">$<span class="fs-l5 lh-1">2</span> / monthly</div>
+                    </div>
+                    <div class="p-3 fw-400 fs-s1 lh-5">
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">2 dedicated threads on PRO Metal</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">4GB Dedicated DDR4 Memory</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">40GB NVMe Storage</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">DDoS Protection by Path</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">10 backups, ports & databases</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">No unexpected daily restarts¹</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">Premium support, 24/7</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">Bring Your Own Software²</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">Keep your free server³</span>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <button class="button full bg-blue white hover-opacity-100 hover-scale-up-1 ease-300">
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="m-3 p-5 br-8 bg-white overflow-hidden">
+                    <div class="p-3">
+                        <h3 class="blue">PRO: Advance</h3>
+                        <h3 class="red">(50% OFF FIRST MONTH!)</h3>
+                        <div class="flex items-center">$<span class="fs-l5 lh-1">4</span> / monthly</div>
+                    </div>
+                    <div class="p-3 fw-400 fs-s1 lh-5">
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">4 dedicated threads on PRO Metal</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">10GB Dedicated DDR4 Memory</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">80GB NVMe Storage</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">DDoS Protection by Path</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">20 backups, ports & databases</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">No unexpected daily restarts¹</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">Premium support, 24/7</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">Bring Your Own Software²</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">Keep your free server³</span>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <button class="button full bg-blue white hover-opacity-100 hover-scale-up-1 ease-300">
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="m-3 p-5 br-8 bg-white overflow-hidden">
+                    <div class="p-3">
+                        <h3 class="blue">PRO: Ultimate</h3>
+                        <h3 class="red">(50% OFF FIRST MONTH!)</h3>
+                        <div class="flex items-center">$<span class="fs-l5 lh-1">6</span> / monthly</div>
+                    </div>
+                    <div class="p-3 fw-400 fs-s1 lh-5">
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">6 dedicated threads on PRO Metal</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">16GB Dedicated DDR4 Memory</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">160GB NVMe Storage</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">DDoS Protection by Path</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">30 backups, ports & databases</span>
+                        </div>
+                        <div>
+                            <i class="h-3 blue" stroke-width="4" data-feather="check"></i>
+                            <span class="opacity-50">No unexpected daily restarts¹</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">Premium support, 24/7</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">Bring Your Own Software²</span>
+                        </div>
+                        <div>
+                            <i class="h-3" stroke-width="4" data-feather="x"></i>
+                            <span class="opacity-50">Keep your free server³</span>
+                        </div>
+                    </div>
+                    <div class="p-3">
+                        <button class="button full bg-blue white hover-opacity-100 hover-scale-up-1 ease-300">
+                            BUY NOW
+                        </button>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- blog -->
+    <section class="p-0 md-p-5">
+        <div class="flex flex-wrap">
+            <div class="w-100pc md-w-33pc py-5 px-10">
+                <a href="#" class="block no-underline p-5 br-8 hover-bg-blue-lightest-100">
+                    <p class="fw-600 white fs-m5 mt-3">
+                        What is a &apos;Shared Resource&apos;?
+                    </p>
+                    <div class="white opacity-50 fs-m1 my-2">
+                        Shared resources refers to multiple people being able to
+                        use the resources you have been allocated. With PRO, no
+                        one else is able to use the resources you&apos;re allocated
+                        - which means your resources would be &apos;dedicated&apos;.
+
+                    </div>
+                </a>
+            </div>
+            <div class="w-100pc md-w-33pc py-5 px-10">
+                <a href="#" class="block no-underline p-5 br-8 hover-bg-blue-lightest-100">
+                    <p class="fw-600 white fs-m5 mt-3">
+                        What is meant by &apos;Daily Restarts&apos;?
+                    </p>
+                    <div class="white opacity-50 fs-m1 my-2">
+                        Daily restarts occur with our Forever-Free
+                        plan. If you do not have a PRO subscription,
+                        your server will automatically shut down
+                        every 24 hours to free up space for users on our
+                        free clusters. With PRO, servers do not automatically
+                        shut down daily.
+                    </div>
+                </a>
+            </div>
+            <div class="w-100pc md-w-33pc py-5 px-10">
+                <a href="#" class="block no-underline p-5 br-8 hover-bg-blue-lightest-100">
+                    <p class="fw-600 white fs-m5 mt-3">
+                        What is &apos;Bring Your Own Software&apos;?
+                    </p>
+                    <div class="white opacity-50 fs-m1 my-2">
+                        BYOS (Bring Your Own Software) is a feature
+                        which allows PRO users to bring their own server
+                        type to our platform. While our free tier only
+                        offers Minecraft Paper, going PRO means you could
+                        run servers such as CS:GO, Minecraft Bungeecord, Rust
+                        and more.
+                    </div>
+                </a>
+            </div>
+            <div class="w-100pc md-w-33pc py-5 px-10">
+                <a href="#" class="block no-underline p-5 br-8 hover-bg-blue-lightest-100">
+                    <p class="fw-600 white fs-m5 mt-3">
+                        What does &apos;Keep Your Free Server&apos; mean?
+                    </p>
+                    <div class="white opacity-50 fs-m1 my-2">
+                        Keep Your Free Server means that you can
+                        choose to create a whole new server for your
+                        PRO subscription, and leave your existing server
+                        as-is for other uses such as testing or running
+                        another service.
+                    </div>
+                </a>
+            </div>
+            <div class="w-100pc md-w-33pc py-5 px-10">
+                <a href="#" class="block no-underline p-5 br-8 hover-bg-blue-lightest-100">
+                    <p class="fw-600 white fs-m5 mt-3">
+                        Are Custom Plans available?
+                    </p>
+                    <div class="white opacity-50 fs-m1 my-2">
+                        Absolutely. We can offer PRO plans with up to
+                        128gb of DDR4 memory, 32 threads and 1TB of NVMe
+                        storage. Big networks who choose a custom plan
+                        can benefit from huge savings against competitors or
+                        even by managing their own dedicated server. Feel free
+                        to get in touch at sales@cxmpute.com to discuss a custom plan.
+                    </div>
+                </a>
+            </div>
+            <div class="w-100pc md-w-33pc py-5 px-10">
+                <a href="#" class="block no-underline p-5 br-8 hover-bg-blue-lightest-100">
+                    <p class="fw-600 white fs-m5 mt-3">
+                        Can I refer people to PRO for a discount?
+                    </p>
+                    <div class="white opacity-50 fs-m1 my-2">
+                        Yes! Referring someone to PRO gives you 50% (yes, really)
+                        of their first month. If you refer someone to a custom plan
+                        which costs $20, you&apos;d recieve $10. No fees, no wait times.
+                        It&apos;s literally free money.
+                    </div>
+                    <div class="white opacity-50 fs-m1 my-2">
+                       To refer someone, you must ask them to put your email in the &apos;
+                       Additional Information&apos; field upon creating a payment.
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="p-5 md-p-l5 bg-blue-lightest-10">
+        <div class="flex flex-wrap">
+            <div class="md-w-25pc mb-10">
+                <img src="https://cxmpute.com/assets/images/logo.png" class="max-h-l10" alt="">
+            </div>
+            <div class="w-100pc md-w-50pc">
+                <div class="flex justify-around">
+                    <div class="w-50pc md-px-10 mb-10 white opacity-70 fs-s2">
+                        <p>
+                            CXMPUTE (kəmˈpjuːt) &copy; 2023
+                        </p>
+                        <br>
+                        <p>
+                            We hope you enjoy our service and support
+                            as much as we enjoyed building this platform from the ground up.
+                        </p>
+                        <p>
+                            With love from the CXMPUTE team <span data-feather="heart" class="red"></span>
+                        </p>
+                    </div>
+                    <div class="w-33pc md-px-10 mb-10">
+                        <h5 class="white">Quicklinks</h5>
+                        <ul class="list-none mt-5 fs-s2">
+                            <li class="my-3"><a href="https://ctrl.cxmpute.com" class="white opacity-70 no-underline hover-underline">CTRL</a></li>
+                            <li class="my-3"><a href="https://discord.com/invite/xbhVayzNXP" class="white opacity-70 no-underline hover-underline">Discord</a>
+                            </li>
+                            <li class="my-3"><a href="mailto:support@cxmpute.com"
+                                    class="white opacity-70 no-underline hover-underline">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="w-100pc md-w-25pc">
+                <div class="flex justify-around my-8">
+                    <a href="https://twitter.com/wearecxmpute" class="relative p-5 bg-blue br-round white hover-scale-up-1 ease-400"><i
+                            data-feather="twitter" class="absolute-center h-4"></i></a>
+                    <a href="https://github.com/cxmpute" class="relative p-5 bg-blue br-round white hover-scale-up-1 ease-400"><i
+                            data-feather="github" class="absolute-center h-4"></i></a>
+                    <a href="mailto:support@cxmpute.com" class="relative p-5 bg-blue br-round white hover-scale-up-1 ease-400"><i
+                            data-feather="help-circle" class="absolute-center h-4"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script
+        src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
